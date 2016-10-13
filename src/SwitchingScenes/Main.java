@@ -15,11 +15,11 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author shadows
+ * @author Iran Freitas Ribeiro
  */
 public class Main extends Application{
-    Stage window;
-    Scene scene1,scene2;
+    Stage window; //janela que exibe as cenas
+    Scene scene1,scene2; //cenas
 
     public static void main(String args[]){
         launch(args);

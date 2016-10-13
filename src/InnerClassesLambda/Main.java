@@ -10,8 +10,6 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 
 /**
  *
@@ -27,12 +25,12 @@ public class Main extends Application{
     
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Handle Events");        
+        primaryStage.setTitle("Um bom nome");        
         button = new Button();
         button1 = new Button();
         
-        button.setText("Clicke me");
-        button.setOnAction(e -> System.out.println("ola, que tal?"));  
+        button.setText("Não clique");
+        button.setOnAction(e -> System.out.println("E ae po?"));  
         
         StackPane layout = new StackPane();
         layout.getChildren().add(button);
